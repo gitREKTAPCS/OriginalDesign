@@ -23,21 +23,28 @@ public void draw()
  outline();
  nose();
  eyes();
+ mouth();
 }
 
 public void nose(){
 	fill(0, 0, 0);
-	triangle(256, 280, 200, 300, 312, 300);
+	triangle(256, 300, 230, 300, 283, 300);
 
 }
 
 public void eyes(){
 	ellipse(150, 100, 50, 100);
+	ellipse(360, 100, 50, 100);
 }
 
 public void outline(){
 	noFill();
 	ellipse(256, 256, 500, 500);
+}
+
+public void mouth(){
+	strokeWeight(5);
+	line(150, 400, 360, 400);
 }
   static public void main(String[] passedArgs) {
     String[] appletArgs = new String[] { "OriginalDesign" };
