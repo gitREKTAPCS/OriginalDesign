@@ -26,9 +26,11 @@ outline();
 }
 
 public void mousePressed() {
-PImage img=loadImage("http://www.mactrast.com/wp-content/uploads/2015/02/grey-ink-illuminati-eye-logo-tattoo-design.jpg");
+PImage img=loadImage("illuminati.jpg");
+beginShape();
 texture(img);
 triangle(256, 50, 156, 200, 356, 200);
+endShape();
 }
 
 public void outline(){
