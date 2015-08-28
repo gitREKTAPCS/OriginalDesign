@@ -20,10 +20,6 @@ void mousePressed(){
     pupil();
     browz();
     textAlign(CENTER, BOTTOM);
-<<<<<<< HEAD
-    fill(0, 0,0);
-=======
->>>>>>> 8101601241a5206eda26856b095398655b216d8b
     text("ILLUMINATI CONFIRMED", 256, 230);
 }
 
