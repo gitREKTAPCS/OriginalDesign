@@ -17,7 +17,6 @@ public class OriginalDesign extends PApplet {
 public void setup()
 {
   size(512, 512);
-  background(0);
 
 }
 public void draw() {
@@ -38,7 +37,6 @@ public void mousePressed(){
     browz();
     textAlign(CENTER, BOTTOM);
     text("ILLUMINATI CONFIRMED", 256, 230);
-    redraw();
 }
 
 public void eye(){

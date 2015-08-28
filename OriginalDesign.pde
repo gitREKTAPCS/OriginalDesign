@@ -1,7 +1,6 @@
 void setup()
 {
   size(512, 512);
-  background(0);
 
 }
 void draw() {
@@ -22,7 +21,6 @@ void mousePressed(){
     browz();
     textAlign(CENTER, BOTTOM);
     text("ILLUMINATI CONFIRMED", 256, 230);
-    redraw();
 }
 
 void eye(){
