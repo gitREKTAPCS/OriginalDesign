@@ -37,7 +37,6 @@ public void mousePressed(){
     pupil();
     browz();
     textAlign(CENTER, BOTTOM);
-    fill(0);
     text("ILLUMINATI CONFIRMED", 256, 230);
     redraw();
 }
